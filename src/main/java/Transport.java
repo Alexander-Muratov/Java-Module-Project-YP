@@ -1,10 +1,15 @@
 public class Transport {
-
     String name;
     int speed;
-
-    Transport(){
-         this.name = name;
-         this.speed = speed;
+    public Transport(String name, int speed) {
+        this.name = name;
+        this.speed = speed;
     }
 }
+
+
+
+
+
+
+
