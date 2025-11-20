@@ -13,9 +13,9 @@ public class Main {
 
     static void printMenu(){
 
-        Transport car1 = createTransport("— Ââåäèòå íàçâàíèå ìàøèíû ¹1:", "— Ââåäèòå ñêîğîñòü ìàøèíû ¹1:");
-        Transport car2 = createTransport("— Ââåäèòå íàçâàíèå ìàøèíû ¹2:", "— Ââåäèòå ñêîğîñòü ìàøèíû ¹2:");
-        Transport car3 = createTransport("— Ââåäèòå íàçâàíèå ìàøèíû ¹3:", "— Ââåäèòå ñêîğîñòü ìàøèíû ¹3:");
+        Transport car1 = createTransport("â€” Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ·Ğ²Ğ°Ğ½Ğ¸Ğµ Ğ¼Ğ°ÑˆĞ¸Ğ½Ñ‹ â„–1:", "â€” Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞºĞ¾Ñ€Ğ¾ÑÑ‚ÑŒ Ğ¼Ğ°ÑˆĞ¸Ğ½Ñ‹ â„–1:");
+        Transport car2 = createTransport("â€” Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ·Ğ²Ğ°Ğ½Ğ¸Ğµ Ğ¼Ğ°ÑˆĞ¸Ğ½Ñ‹ â„–2:", "â€” Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞºĞ¾Ñ€Ğ¾ÑÑ‚ÑŒ Ğ¼Ğ°ÑˆĞ¸Ğ½Ñ‹ â„–2:");
+        Transport car3 = createTransport("â€” Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ğ½Ğ°Ğ·Ğ²Ğ°Ğ½Ğ¸Ğµ Ğ¼Ğ°ÑˆĞ¸Ğ½Ñ‹ â„–3:", "â€” Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ ÑĞºĞ¾Ñ€Ğ¾ÑÑ‚ÑŒ Ğ¼Ğ°ÑˆĞ¸Ğ½Ñ‹ â„–3:");
 
         Race.pathTraveled(car1, car2, car3);
 
@@ -38,7 +38,7 @@ public class Main {
                 if (!input.trim().isEmpty()) {
                     return input;
                 } else {
-                    System.out.println("— Íåïğàâèëüíàÿ íàçâàíèå:");
+                    System.out.println("â€” ĞĞµĞ¿Ñ€Ğ°Ğ²Ğ¸Ğ»ÑŒĞ½Ğ°Ñ Ğ½Ğ°Ğ·Ğ²Ğ°Ğ½Ğ¸Ğµ:");
                 }
             }
         }
@@ -55,7 +55,7 @@ public class Main {
                 if (input >= min && input <= max) {
                     return input;
                 } else {
-                    System.out.println("— Íåïğàâèëüíàÿ ñêîğîñòü");
+                    System.out.println("â€” ĞĞµĞ¿Ñ€Ğ°Ğ²Ğ¸Ğ»ÑŒĞ½Ğ°Ñ ÑĞºĞ¾Ñ€Ğ¾ÑÑ‚ÑŒ");
                 }
             }
         }

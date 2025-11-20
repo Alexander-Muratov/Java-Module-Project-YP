@@ -15,4 +15,4 @@ public class Race {
             System.out.println("Самая быстрая машина: " + car3.name);
     }
 
-}// Finish class Race
+}// Finish class Race.
